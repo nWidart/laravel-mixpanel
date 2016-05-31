@@ -32,8 +32,6 @@ class LaravelMixpanel extends \Mixpanel
     /**
      * @param string $event
      * @param array  $properties
-     *
-     * @internal param array $data
      */
     public function track($event, $properties = [])
     {
